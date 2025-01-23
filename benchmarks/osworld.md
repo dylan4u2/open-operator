@@ -12,10 +12,47 @@ OSWorld is a first-of-its-kind scalable, real computer environment for multimoda
 
 ## Performance Metrics
 
-Current performance benchmarks:
-- Human performance: >72.36% task success rate
-- Best model performance: 12.24% success rate
+Latest benchmark results as of April 2024:
+
+### Overall Performance
+- Human Performance: >72.36% task success rate
+- Best Model Performance: 24.6% (UI-TARS-72B-DPO with 50 steps)
 - Models primarily struggle with GUI grounding and operational knowledge
+
+### Detailed Results by Model Type
+
+#### A11y Tree Based Models
+| Rank | Model | Success Rate | Notes |
+|------|--------|--------------|-------|
+| 1 | UI-TARS-72B-DPO (50 steps) | 24.6% | ByteDance & Tsinghua |
+| 2 | UI-TARS-72B-DPO (15 steps) | 22.7% | ByteDance & Tsinghua |
+| 3 | Claude 3.5 Sonnet (50 steps) | 22.0% | Anthropic |
+| 4 | UI-TARS-72B-SFT (15 steps) | 18.8% | ByteDance & Tsinghua |
+| 5 | UI-TARS-7B-DPO (15 steps) | 18.7% | ByteDance & Tsinghua |
+
+#### Screenshot Based Models
+| Rank | Model | Success Rate | Notes |
+|------|--------|--------------|-------|
+| 1 | OSCAR w/ GPT-4o | 24.5% | Universite de Montreal |
+| 2 | GPT-4 Vision | 11.77% | OpenAI |
+| 3 | GPT-4 Vision (0409) | 8.40% | OpenAI |
+| 4 | Gemini-Pro-1.5 | 7.79% | Google |
+| 5 | Claude-3-Opus | 6.72% | Anthropic |
+
+#### Screenshot + A11y Tree Models
+| Rank | Model | Success Rate | Notes |
+|------|--------|--------------|-------|
+| 1 | Aguvis-72B w/ GPT-4o | 17.04% | Salesforce & HKU |
+| 2 | Aria-UI w/ GPT-4o | 15.15% | HKU & Rhymes AI |
+| 3 | OS-Atlas-Base-7B w/ GPT-4o | 14.63% | Shanghai AI Lab |
+| 4 | Aguvis-72B | 10.26% | Salesforce & HKU |
+| 5 | SeeClick w/ GPT-4o | 9.21% | Nanjing University |
+
+### Key Findings
+- Higher screenshot resolution improves performance
+- Longer text-based trajectory history helps but poses efficiency challenges
+- Current VLM agents are not robust to UI layout and noise
+- Performance across different OS shows strong correlation
 
 ## Task Categories
 
