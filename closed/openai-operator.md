@@ -1,6 +1,6 @@
 # OpenAI Operator
 
-Based on the recent announcements and discussions, here are the key details about OpenAI's Operator.
+OpenAI's Operator is an autonomous computer use agent that can interact with computers through a visual interface, as announced in their [official release](https://openai.com/index/introducing-operator/). It uses a specialized Computer Use Assistant (CUA) model to understand and interact with graphical user interfaces.
 
 ## Overview
 

@@ -4,79 +4,17 @@ What will it take to make a versatile computer use agent that can safely and eff
 
 This is a collection of resources and ideas towards this goal.
 
-## Tasks to be Performed
+## Overview of Tasks and Features
 
-1. **Code Development and Management**
-   - Code generation and modification
-   - Project setup and dependency management
-   - Code refactoring and optimization
-   - Version control operations
-   - Documentation generation
+The Open Operator project aims to enable AI agents to perform a wide range of computer tasks across several key domains:
 
-2. **Data Processing and Management**
-   - Data entry and extraction
-   - Document processing and analysis
-   - Data synchronization between applications
-   - Database operations
-   - Web scraping and data collection
+- **Development**: Code generation, project setup, version control
+- **Data Management**: Processing, analysis, and synchronization
+- **Automation**: Workflows, emails, customer support
+- **Web Interaction**: Navigation, form filling, research
+- **System Operations**: File management, software installation, monitoring
 
-3. **Workflow Automation**
-   - Task scheduling and management
-   - Email automation and processing
-   - Customer support operations
-   - Marketing activities
-   - Financial operations
-
-4. **Web and Browser Interactions**
-   - Web navigation and form filling
-   - Browser automation
-   - API interactions
-   - Web-based research
-   - Content management
-
-5. **System Operations**
-   - File system operations
-   - Environment setup
-   - Software installation
-   - System monitoring
-   - Task automation
-
-## Features
-
-1. **AI-Powered Automation**
-   - Natural language understanding
-   - Task planning and execution
-   - Adaptive learning from demonstrations
-   - Context-aware decision making
-   - Multi-step workflow automation
-
-2. **User Interface Interaction**
-   - Mouse and keyboard control
-   - Screen analysis and understanding
-   - Element recognition and interaction
-   - Form filling and data input
-   - Visual workflow builders
-
-3. **Integration Capabilities**
-   - API integration
-   - Third-party service connections
-   - Cross-platform compatibility
-   - Custom node/component creation
-   - Webhook support
-
-4. **Development Tools**
-   - Code editors
-   - Terminal access
-   - Browser integration
-   - Version control
-   - Debugging capabilities
-
-5. **Security and Privacy**
-   - Data protection measures
-   - Access control
-   - PII/PHI scrubbing
-   - Secure API handling
-   - Compliance features
+For a detailed breakdown of tasks and capabilities, see [capabilities.md](capabilities.md).
 
 ## Benchmarks
 

@@ -1,13 +1,14 @@
 # UI-TARS
 
 ## Overview
-UI-TARS is an open-source autonomous agent system developed by ByteDance Seed & Tsinghua University that achieves state-of-the-art performance on the OSWorld benchmark.
+UI-TARS is an open-source autonomous GUI agent developed by ByteDance Seed & Tsinghua University. The project is described in their [research paper](https://arxiv.org/abs/2501.12326) and available on [GitHub](https://github.com/bytedance/UI-TARS).
 
 ## Key Features
-- Multiple model sizes (7B and 72B)
+- Multiple model sizes (2B, 7B, and 72B)
 - DPO and SFT training approaches
 - Support for varying step lengths
-- A11y tree based interaction
+- Cross-platform support (desktop, mobile, web)
+- Built on Qwen-2-VL architecture
 
 ## Performance
 ### OSWorld Results
@@ -17,12 +18,20 @@ UI-TARS is an open-source autonomous agent system developed by ByteDance Seed & 
 - UI-TARS-7B-DPO (15 steps): 18.7%
 - UI-TARS-7B-SFT (15 steps): 17.7%
 
+### ScreenSpot Results
+- UI-TARS-72B: 88.4% accuracy
+- UI-TARS-7B: 89.5% accuracy
+- UI-TARS-2B: 82.3% accuracy
+
 ## Technical Details
-- Model Sizes: 7B and 72B parameters
-- Training Methods: DPO (Direct Preference Optimization) and SFT (Supervised Fine-Tuning)
-- Input: A11y tree based
+- Model Sizes: 2B, 7B, and 72B parameters
+- Training Methods: DPO and SFT
+- Input: Pure vision-based approach
 - Step Configurations: 15 and 50 steps
+- Supports local deployment with vLLM
 
 ## References
+- Paper: https://arxiv.org/abs/2501.12326
 - Code: https://github.com/bytedance/UI-TARS
-- Paper: [UI-TARS paper]
+- Desktop Version: https://github.com/bytedance/UI-TARS-desktop
+- Models: https://huggingface.co/bytedance-research/UI-TARS-7B-DPO
