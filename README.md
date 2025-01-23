@@ -81,9 +81,7 @@ This is a collection of resources and ideas towards this goal.
 ## Benchmarks
 
 - [WebArena](benchmarks/webarena.md) is a realistic web environment for building autonomous agents.
-- [OSWorld](benchmarks/osworld.md) is a scalable, real computer environment for multimodal agents that supports task setup, execution-based evaluation, and interactive learning across operating systems. 
-
-## Benchmark Results
+- [OSWorld](benchmarks/osworld.md) is a scalable, real computer environment for multimodal agents that supports task setup, execution-based evaluation, and interactive learning across operating systems.
 
 ## Benchmark Results Summary
 
