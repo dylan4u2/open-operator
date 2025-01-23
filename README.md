@@ -80,23 +80,8 @@ This is a collection of resources and ideas towards this goal.
 
 ## Benchmarks
 
-### WebArena
-[WebArena](benchmarks/webarena.md) is a realistic web environment for building autonomous agents. It creates websites from popular categories with functionality and data mimicking their real-world equivalents. Key features include:
-
-- Standalone, self-hostable web environment
-- Creates websites from four popular categories with realistic functionality
-- Embeds tools and knowledge resources as independent websites
-- Provides annotated programs for programmatically validating task correctness
-- Supports task setup and execution-based evaluation
-
-### OSWorld
-[OSWorld](benchmarks/osworld.md) is a scalable, real computer environment for multimodal agents that supports task setup, execution-based evaluation, and interactive learning across operating systems. Key features include:
-
-- Supports multiple operating systems (Ubuntu, Windows, macOS)
-- Includes 369 real-world computer tasks with reliable setup and evaluation scripts
-- Enables cross-app workflows and arbitrary application interactions
-- Provides execution-based evaluation functions
-- Supports parallel environment execution
+- [WebArena](benchmarks/webarena.md) is a realistic web environment for building autonomous agents.
+- [OSWorld](benchmarks/osworld.md) is a scalable, real computer environment for multimodal agents that supports task setup, execution-based evaluation, and interactive learning across operating systems. 
 
 ## Benchmark Results
 
@@ -122,10 +107,6 @@ Latest benchmark results across major evaluation frameworks as of January 2025. 
 For detailed results and analysis, see the individual benchmark pages:
 - [WebArena Benchmark](benchmarks/webarena.md)
 - [OSWorld Benchmark](benchmarks/osworld.md)
-
-### References
-[1] WebArena: A Realistic Web Environment for Building Autonomous Agents (https://arxiv.org/pdf/2307.13854)
-[2] OSWorld: Benchmarking Multimodal Agents for Open-Ended Tasks in Real Computer Environments (https://arxiv.org/abs/2404.07972)
 
 ## Current Solutions
 
