@@ -100,30 +100,34 @@ This is a collection of resources and ideas towards this goal.
 
 ## Benchmark Results
 
-### WebArena Results
-Latest leaderboard results as of April 2024 [1]:
-- Best Overall: Jace.AI (57.1% success rate)
-- Best Open Source: Learn-by-Interact (48% success rate)
-- Notable Mentions:
-  - ScribeAgent + GPT-4o: 53%
-  - ORCHESTRA: 52.1%
-  - AgentOccam-Judge: 45.7%
+## Benchmark Results Summary
 
-### OSWorld Results
-Latest benchmark results as of April 2024 [2]:
-- Human Performance: >72.36% task success rate
-- Best Model Performance: UI-TARS-72B-DPO (50 steps) - 24.6%
-- Notable Mentions:
-  - UI-TARS-72B-DPO (15 steps): 22.7%
-  - Claude 3.5 Sonnet (50 steps): 22.0%
-  - UI-TARS-72B-SFT (15 steps): 18.8%
-  - Aguvis-72B w/ GPT-4o: 17.04%
+Latest benchmark results across major evaluation frameworks as of April 2024:
 
-### OpenAI Operator Results
-OpenAI's Operator, powered by their Computer Use Assistant (CUA) model, has been benchmarked with impressive results:
-- WebArena: 58% accuracy using only GUI interface
-- OSWorld: 38% accuracy
-These results surpass previously published benchmarks, demonstrating strong capabilities in web-based task automation.
+| Framework | Best Model | Success Rate | Type | Human Performance |
+|-----------|------------|--------------|------|-------------------|
+| WebArena | OpenAI Operator (CUA) | 58.0% | Closed | N/A |
+| OSWorld | UI-TARS-72B-DPO | 24.6% | Open | >72.36% |
+
+### Top Open Source Solutions
+| Model | WebArena | OSWorld | Notes |
+|-------|----------|---------|--------|
+| UI-TARS-72B-DPO | N/A | 24.6% | Best on OSWorld |
+| Learn-by-Interact | 48.0% | N/A | Best open source on WebArena |
+| AgentOccam-Judge | 45.7% | N/A | |
+| Aguvis-72B | N/A | 10.26% | Multimodal approach |
+
+### Top Closed Source Solutions
+| Model | WebArena | OSWorld | Notes |
+|-------|----------|---------|--------|
+| OpenAI Operator | 58.0% | 38.0% | Best overall on both benchmarks |
+| Jace.AI | 57.1% | N/A | |
+| ScribeAgent + GPT-4o | 53.0% | N/A | Proprietary training data |
+| ORCHESTRA | 52.1% | N/A | |
+
+For detailed results and analysis, see the individual benchmark pages:
+- [WebArena Benchmark](benchmarks/webarena.md)
+- [OSWorld Benchmark](benchmarks/osworld.md)
 
 ### References
 [1] WebArena: A Realistic Web Environment for Building Autonomous Agents (https://arxiv.org/pdf/2307.13854)

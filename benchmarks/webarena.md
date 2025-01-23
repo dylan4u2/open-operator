@@ -12,9 +12,21 @@ WebArena is a realistic web environment for building autonomous agents. It creat
 
 ## Performance Metrics
 
-Based on recent evaluations:
-- GPT-4 achieves 58% accuracy using only the GUI interface
-- Supports evaluation through both information seeking tasks and programmatic checking of intermediate states
+Latest leaderboard results as of April 2024:
+
+| Rank | Model | Success Rate | Type | Notes |
+|------|--------|--------------|------|-------|
+| 1 | Jace.AI | 57.1% | Closed | Action description + Screenshots |
+| 2 | ScribeAgent + GPT-4o | 53.0% | Closed | Finetuned with proprietary data |
+| 3 | ORCHESTRA | 52.1% | Closed | Reported by UNC x Ventus |
+| 4 | Learn-by-Interact | 48.0% | Open | Best open-source solution |
+| 5 | AgentOccam-Judge | 45.7% | Open | |
+
+### Evaluation Methods
+- Information seeking tasks with answer comparison
+- Programmatic checking of intermediate states
+- GUI-only interface testing
+- Cross-app workflow validation
 
 ## Task Categories
 
