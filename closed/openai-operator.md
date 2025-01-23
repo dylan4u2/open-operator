@@ -12,7 +12,8 @@ Operator is a web navigation and task automation tool that interacts directly th
 - Uses CUA model for direct mouse click and screenshot interaction
 - Similar approach to Anthropic's Computer Use capability
 - Includes "take over control" feature allowing users to stop and complete tasks manually
-- Actions are not visible to Operator - users need to communicate changes
+  - In this mode actions are not visible to Operator - users need to communicate changes
+- Can create and share videos of the interaction
 
 ### Safety Features
 1. Task Filtering
