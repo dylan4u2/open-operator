@@ -27,7 +27,7 @@ Operator is a web navigation and task automation tool that interacts directly th
 
 ### Performance
 - Benchmarked on standard evaluation frameworks:
-  - OSWorld: ~30% accuracy
+  - OSWorld: 38% accuracy
   - WebArena: 58% accuracy using only GUI interface
   - Performs better than published results on these benchmarks
 
