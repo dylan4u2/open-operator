@@ -1,6 +1,6 @@
 # Anthropic Computer Use
 
-Claude AI's computer use capability, introduced in October 2024, allows the AI to interact with computer interfaces in a manner similar to humans. Key features include:
+Claude AI's computer use capability, [officially announced by Anthropic](https://www.anthropic.com/news/3-5-models-and-computer-use), allows the AI to interact with computer interfaces in a manner similar to humans. The capability is integrated into Claude 3.5 Sonnet and enables direct interaction with graphical user interfaces through visual understanding and cursor control. Key features include:
 
 1. Cursor movement: Claude can move a cursor around a computer screen[^3][^10].
 
