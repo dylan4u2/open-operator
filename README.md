@@ -80,11 +80,54 @@ This is a collection of resources and ideas towards this goal.
 
 ## Benchmarks
 
-TODO
+### WebArena
+[WebArena](benchmarks/webarena.md) is a realistic web environment for building autonomous agents. It creates websites from popular categories with functionality and data mimicking their real-world equivalents. Key features include:
+
+- Standalone, self-hostable web environment
+- Creates websites from four popular categories with realistic functionality
+- Embeds tools and knowledge resources as independent websites
+- Provides annotated programs for programmatically validating task correctness
+- Supports task setup and execution-based evaluation
+
+### OSWorld
+[OSWorld](benchmarks/osworld.md) is a scalable, real computer environment for multimodal agents that supports task setup, execution-based evaluation, and interactive learning across operating systems. Key features include:
+
+- Supports multiple operating systems (Ubuntu, Windows, macOS)
+- Includes 369 real-world computer tasks with reliable setup and evaluation scripts
+- Enables cross-app workflows and arbitrary application interactions
+- Provides execution-based evaluation functions
+- Supports parallel environment execution
 
 ## Benchmark Results
 
-TODO
+### WebArena Results
+Latest leaderboard results as of April 2024 [1]:
+- Best Overall: Jace.AI (57.1% success rate)
+- Best Open Source: Learn-by-Interact (48% success rate)
+- Notable Mentions:
+  - ScribeAgent + GPT-4o: 53%
+  - ORCHESTRA: 52.1%
+  - AgentOccam-Judge: 45.7%
+
+### OSWorld Results
+Latest benchmark results as of April 2024 [2]:
+- Human Performance: >72.36% task success rate
+- Best Model Performance: UI-TARS-72B-DPO (50 steps) - 24.6%
+- Notable Mentions:
+  - UI-TARS-72B-DPO (15 steps): 22.7%
+  - Claude 3.5 Sonnet (50 steps): 22.0%
+  - UI-TARS-72B-SFT (15 steps): 18.8%
+  - Aguvis-72B w/ GPT-4o: 17.04%
+
+### OpenAI Operator Results
+OpenAI's Operator, powered by their Computer Use Assistant (CUA) model, has been benchmarked with impressive results:
+- WebArena: 58% accuracy using only GUI interface
+- OSWorld: 38% accuracy
+These results surpass previously published benchmarks, demonstrating strong capabilities in web-based task automation.
+
+### References
+[1] WebArena: A Realistic Web Environment for Building Autonomous Agents (https://arxiv.org/pdf/2307.13854)
+[2] OSWorld: Benchmarking Multimodal Agents for Open-Ended Tasks in Real Computer Environments (https://arxiv.org/abs/2404.07972)
 
 ## Current Solutions
 
@@ -100,6 +143,4 @@ TODO
 * [OpenAdapt](open/openadapt.md): Generative process automation framework
 * [OpenHands](open/openhands.md): AI-powered software development platform
 
-## Benchmarks
 
-Currently, there are no standardized benchmarks available. This section will be updated as benchmarks are developed and results become available.
