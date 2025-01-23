@@ -1,6 +1,6 @@
 # Open Operator
 
-What will it take to make a verstaile computer use agent that can safely and effectively handle any task?
+What will it take to make a versatile computer use agent that can safely and effectively handle any task?
 
 This is a collection of resources and ideas towards this goal.
 
