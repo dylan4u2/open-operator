@@ -20,8 +20,20 @@ TODO
 
 TODO
 
-## Detailed Breakdown
+## Current Solutions
 
-* [Closed Solutions](closed/): Solutions that are closed source and not open to the public.
-* [Open Solutions](open/): Solutions that are open source.
-* [Benchmarks](benchmarks/): Benchmarks of the current state of the art.
+### Closed Source Solutions
+* [Anthropic Computer Use](closed/anthropic-computer-use.md): Claude AI's computer use capability
+* [Gumloop](closed/gumloop.md): AI-powered automation platform with visual workflow builder
+* [Lutra](closed/lutra.md): AI-driven workflow automation platform
+* [OpenAI Operator](closed/openai-operator.md): Upcoming autonomous AI agent for computer tasks
+* [Zapier](closed/zapier.md): No-code automation platform connecting various apps and services
+
+### Open Source Solutions
+* [n8n](open/n8n.md): Workflow automation platform with extensive integration options
+* [OpenAdapt](open/openadapt.md): Generative process automation framework
+* [OpenHands](open/openhands.md): AI-powered software development platform
+
+## Benchmarks
+
+Currently, there are no standardized benchmarks available. This section will be updated as benchmarks are developed and results become available.
