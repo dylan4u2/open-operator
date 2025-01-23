@@ -102,7 +102,7 @@ This is a collection of resources and ideas towards this goal.
 
 ## Benchmark Results Summary
 
-Latest benchmark results across major evaluation frameworks as of April 2024. Human performance on OSWorld: >72.36%.
+Latest benchmark results across major evaluation frameworks as of January 2025. Human performance on OSWorld: >72.36%.
 
 | Model | WebArena | OSWorld | Openness | Notes |
 |-------|----------|---------|----------|--------|
